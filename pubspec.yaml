@@ -1,0 +1,67 @@
+name: portfolio
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.1
+  flutter_animate: ^4.5.2
+  scrollable_positioned_list: ^0.3.8
+  firebase_core: ^3.14.0
+  firebase_remote_config: ^5.4.5
+  simple_animations: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/Ubuntu/Ubuntu-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Ubuntu/Ubuntu-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Ubuntu/Ubuntu-Bold.ttf
+          weight: 700
+
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo/Cairo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Cairo/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Cairo/Cairo-Bold.ttf
+          weight: 700
+
+    - family: Alexandria
+      fonts:
+        - asset: assets/fonts/Alexandria/Alexandria-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Alexandria/Alexandria-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Alexandria/Alexandria-Bold.ttf
+          weight: 700
+
+    - family: NovaFlat
+      fonts:
+        - asset: assets/fonts/NovaFlat/NovaFlat-Regular.ttf
+          weight: 400
